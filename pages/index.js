@@ -23,11 +23,11 @@ export default function Home() {
 					Creating <span className="text-blue-500">enterprise-grade</span> web applications with the <span className="text-blue-500">newest</span> technologies
 				</div>
 
-				<div className="mt-12 md:mt-16  text-black dark:text-white text-center max-w-3xl">
+				<div className="mt-12 md:mt-16  text-black dark:text-white text-center max-w-2xl">
 					a developer from the Netherlands specialized in Typescript and .NET Software Engineering with a sharp eye on great user experiences, security and functional correctness
 				</div>
 
-				<div className="mt-2 md:mt-4 text-black dark:text-white text-center">
+				<div className="mt-2 md:mt-3 text-black dark:text-white text-center">
 					Currently employed at <a className="hover:text-blue-500 transition ease-in-out duration-75" href="https://infosupport.com">Info Support</a> as IT Consultant Software Engineering
 				</div>
 			</div>
