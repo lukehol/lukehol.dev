@@ -10,11 +10,14 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 			</Head>
 			<div className="flex flex-col items-center | min-w-screen min-h-screen | p-4">
-				<div className="pt-3 pr-3 | mt-12 md:mt-16 | bg-blue-500 rounded-full">
-					<Image src={memoji} width={100} height={100} />
+				<div className="mt-12 md:mt-16 relative">
+					<div className="w-24 h-24 md:w-28 md:h-28 bg-blue-500 rounded-full" />
+					<div className="absolute top-1 right-1 w-24 h-24 md:w-28 md:h-28">
+						<Image src={memoji} width={200} height={200} alt="Luke Hol memoji" />
+					</div>
 				</div>
 
-				<div className="mt-8 md:mt-12 md:text-2xl text-black dark:text-white font-medium">Hi, I'm Luke <div className="animate-wiggle inline-block">👋🏻</div></div>
+				<div className="mt-8 md:mt-12 md:text-xl text-black dark:text-white font-medium">Hi, I'm Luke <div className="animate-wiggle inline-block">👋🏻</div></div>
 
 				<div className="mt-6 md:mt-8 text-black dark:text-white font-bold text-2xl md:text-6xl leading-tight text-center max-w-6xl">
 					Creating <span className="text-blue-500">enterprise-grade</span> web applications with the <span className="text-blue-500">newest</span> technologies
