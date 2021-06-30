@@ -7,7 +7,7 @@ export default function Home() {
     <div className="bg-white dark:bg-gray-900">
 			<Head>
 				<title>Luke Hol</title>
-				<meta name="description">A developer from the Netherlands specialized in Typescript and .NET Software Engineering.</meta>
+				<meta name="description" content="A developer from the Netherlands specialized in Typescript and .NET Software Engineering" />
 
 				<link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
