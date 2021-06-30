@@ -17,7 +17,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="mt-8 md:mt-12 md:text-xl text-black dark:text-white font-medium">Hi, I'm Luke <div className="animate-wiggle inline-block">👋🏻</div></div>
+				<div className="mt-8 md:mt-12 md:text-xl text-black dark:text-white font-medium">Hi, I&apos;m Luke <div className="animate-wiggle inline-block">👋🏻</div></div>
 
 				<div className="mt-6 md:mt-8 text-black dark:text-white font-bold text-2xl md:text-6xl leading-tight text-center max-w-6xl">
 					Creating <span className="text-blue-500">enterprise-grade</span> web applications with the <span className="text-blue-500">newest</span> technologies
