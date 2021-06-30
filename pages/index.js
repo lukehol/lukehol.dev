@@ -6,6 +6,9 @@ export default function Home() {
   return (
     <div className="bg-white dark:bg-gray-900">
 			<Head>
+				{/* SEO */}
+				<title>Luke Hol</title>
+				<meta name="description">A developer from the Netherlands specialized in Typescript and .NET Software Engineering.</meta>
 				{/* Font */}
 				<link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
 
